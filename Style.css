@@ -1,0 +1,168 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+a:hover,
+a:focus {
+    color: aqua;
+}
+
+#navbar {
+    padding: 7px;
+    margin: 0;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#Logo {
+    height: 50px;
+}
+
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+    font-size: 1.4rem;
+}
+
+#team {
+    width: 50%;
+}
+
+#team-image {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+    color: #222222;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: ghostwhite;
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.apply {
+    float: right;
+}
+
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#Application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.form-group {
+    margin-top: 16px;
+}
+
+#Application-form label {
+    font-weight: 600;
+}
+
+#Application-form input,
+select {
+    margin-top: 4px;
+    padding: 4px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form-group textarea {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+#footer {
+    background-color: aliceblue;
+    margin-top: 32px;
+    padding: 8px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright {
+    color: gray;
+    font-size: 0.875rem;
+}
